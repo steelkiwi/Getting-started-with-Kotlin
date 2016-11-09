@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/view_news_item_corner_radius"
+    app:contentPadding="@dimen/view_news_item_content_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/view_news_item_image_view_side_size"
+        android:layout_height="@dimen/view_news_item_image_view_side_size"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/view_item_content_left_padding"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            tools:text="text"
+            android:textStyle="bold"
+            style="@style/NewsItemContentStyle"
+            android:textSize="@dimen/view_news_item_head_line_text_size"
+            android:textColor="@android:color/primary_text_light"
+            android:maxLines="2"
+            android:id="@+id/headLineTextView" />
+
+        <TextView
+            tools:text="text"
+            android:maxLines="3"
+            style="@style/NewsItemContentStyle"
+            android:id="@+id/captionTextView"/>
+
+        <TextView
+            tools:text="text"
+            style="@style/NewsItemContentStyle"
+            android:id="@+id/agencyTextView"/>
+
+        <TextView
+            tools:text="text"
+            style="@style/NewsItemContentStyle"
+            android:id="@+id/dateTextView"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

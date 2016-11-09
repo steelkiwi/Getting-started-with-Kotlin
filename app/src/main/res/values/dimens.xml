@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="view_news_item_corner_radius">8dp</dimen>
+    <dimen name="view_news_item_content_padding">16dp</dimen>
+    <dimen name="view_news_item_image_view_side_size">40dp</dimen>
+    <dimen name="view_news_item_head_line_text_size">16sp</dimen>
+    <dimen name="view_item_content_left_padding">56dp</dimen>
+    <dimen name="view_news_item_description_text_size">13sp</dimen>
+</resources>
