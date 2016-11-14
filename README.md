@@ -1,10 +1,12 @@
 # Getting started with Kotlin, Glide, Dagger 2, Retrofit 2, Realm, MVP and RxJava on Android
 
-### It’s not a secret to Android developers all around the globe, that IT community has been trying to find a distinct replacement to Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was open in 2012 and in 2016 the 1.0 version was released.
-### Kotlin has appeared as a response to massive Java code and Scala low-speed compilation. Today many famous IT companies use it in their projects. The attention to this language is continuing to grow, as it wins over the developers with its syntax and that fact that Kotlin supports in IDE by the means of plugin. Even Jake Wharton, recognized Android gospeller, uses Kotlin in the projects of his own thus acquiring Android community towards practical usage of this language.
-### Let’s not leave ourselves behind and try Kotlin on practice to weigh its extensively discussed pros and cons. And also we will learn how to start development of Android applications on Kotlin. 
+It’s not a secret to Android developers all around the globe, that IT community has been trying to find a distinct replacement to Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was open in 2012 and in 2016 the 1.0 version was released.
 
-# What does Kotlin hide?
+Kotlin has appeared as a response to massive Java code and Scala low-speed compilation. Today many famous IT companies use it in their projects. The attention to this language is continuing to grow, as it wins over the developers with its syntax and that fact that Kotlin supports in IDE by the means of plugin. Even Jake Wharton, recognized Android gospeller, uses Kotlin in the projects of his own thus acquiring Android community towards practical usage of this language.
+
+Let’s not leave ourselves behind and try Kotlin on practice to weigh its extensively discussed pros and cons. And also we will learn how to start development of Android applications on Kotlin. 
+
+## What does Kotlin hide?
 ### Mostly Kotlin is commended for its briefness and code safety and also for compatibility with Java and flexile usage. It’s hard to list all its announced advantages, so let’s view the most interesting ones.
 ## Strong sides of Kotlin:
 * Fully [compatible with Java] (https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/model/NewsResponse.java#L12). It can use all available Java frameworks, libraries and also with separate modules in current projects.
@@ -189,7 +191,7 @@ subscription = mNewsApiInterface!!
        .subscribe({ mNewsView?.onNewsItemLoaded(it) }, { mNewsView?.onError(it) })
 ```
 
-##  Projects source code is available on this Repository =)
+Projects source code is available on this Repository =)
 
-# Let’s sum up
-## All in all, Kotlin is a modern and secure programming language that simplifies Android apps development. It looks like a distinct alternative to Java as it has good documentation and is simple enough for understanding. We hope that this article helped you to figure out how to create a project on Kotlin and integrate the needed libraries.
+## Let’s sum up
+ All in all, Kotlin is a modern and secure programming language that simplifies Android apps development. It looks like a distinct alternative to Java as it has good documentation and is simple enough for understanding. We hope that this article helped you to figure out how to create a project on Kotlin and integrate the needed libraries.
