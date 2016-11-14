@@ -6,6 +6,9 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * example of work of Kotlin project with Java class.
+ */
 public class NewsResponse {
 
     @SerializedName("Pagination")

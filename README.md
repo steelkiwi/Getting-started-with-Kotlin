@@ -1,51 +1,51 @@
- ## ДОПОЛНЯЕТСЯ
-
 # Getting started with Kotlin, Glide, Dagger 2, Retrofit 2, Realm, MVP and RxJava on Android
 
-### Разработчики, хорошо знают, что в мировом IT-сообществе уже долгое время пытаются найти достойную замену языку Java. До 2011 года самым подходящим кандидатом можно было считать Scala, пока не было анонсировано создание Kotlin. Исходный код Kotlin открыли в 2012 году, а в 2016 состоялся официальный релиз версии 1.0.
-### Kotlin появился в качестве ответа громоздкому коду Java и медленной скорости компиляции Scala. Сегодня многие известные IT-компании используют его в своих проектах. Внимание к языку продолжает расти, подкупает его синтаксис и поддержка в IDE. Даже Jake Wharton, признанный евангелист Android, применяет Kotlin в своих проектах и тем самым привлекает Android-сообщество к использованию этого языка.
-### Не будем оставаться в стороне и попробуем Kotlin на практике, чтобы оценить его широко обсуждаемые плюсы и минусы, а также узнаем как начать разрабатывать на Kotlin приложения под Android. 
-# Что скрывает Kotlin?
-### В основном Kotlin хвалят за краткость и безопасность кода, а также за совместимость с java и разностороннее применение. Все его заявленные достоинства перечислить сложно, однако остановимся на самых интересных.
-## Сильные стороны Kotlin
-* Полностью совместим с Java. Может использовать все известные Java фреймворки и библиотеки, а также отдельные модули в текущих проектах.
-* Имеет открытый исходный код, поэтому можно легко найти, обозначить проблему в случае её возникновения и сообщить об этом разработчикам языка.
-* Его репозиторий весит мало в отличии от того же Scala, и добавление Kotlin в проект равносильно добавлению саппорт библиотеки от Google.
-* Начинается с Java 6, может использовать большую часть Java 7 и некоторые портированные элементы Java 8, поэтому легко доступен, даже если вам проблематично обновиться до новой версии JVM.
-* Иммутабельность по умолчанию.
-* Higher-Order Functions, т.е. функции которые принимают функции, как параметры.
-* Null safety. По умолчанию в Kotlin переменные не могут принимать null, если вы явно их так не обозначите.
+### It’s not a secret to Android developers all around the globe, that IT community has been trying to find a distinct replacement to Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was open in 2012 and in 2016 the 1.0 version was released.
+### Kotlin has appeared as a response to massive Java code and Scala low-speed compilation. Today many famous IT companies use it in their projects. The attention to this language is continuing to grow, as it wins over the developers with its syntax and that fact that Kotlin supports in IDE by the means of plugin. Even Jake Wharton, recognized Android gospeller, uses Kotlin in the projects of his own thus acquiring Android community towards practical usage of this language.
+### Let’s not leave ourselves behind and try Kotlin on practice to weigh its extensively discussed pros and cons. And also we will learn how to start development of Android applications on Kotlin. 
 
-### Если с плюсами Kotlin всё довольно прозрачно, то минусы не сразу так очевидны, но они есть.
+# What does Kotlin hide?
+### Mostly Kotlin is commended for its briefness and code safety and also for compatibility with Java and flexile usage. It’s hard to list all its announced advantages, so let’s view the most interesting ones.
+## Strong sides of Kotlin:
+* Fully compatible with Java. It can use all available Java frameworks, libraries and also with separate modules in current projects.
+* Has open source code, so it’s easy to track and determine an issue and if you come up with it, you can always submit it to Kotlin developers.
+* Kotlins repository consumes less space than Scala, and adding Kotkin to a project is equal to Google library.
+* Starting from Java 6, it can use the major part of Java 7 and some portable elements of Java 8. That’s why it is easily available even if you are facing troubles updating to new JVM version.
+* Immutability by default.
+* Higher-Order Functions, i.e. the functions that take functions as parameters.
+* Null safety. Variables in Kotlin can’t possess the null value by default unless you denote them.
 
-## Слабые стороны Kotlin
-* Kotlin ориентирован на байткод Java 6 и не использует ряд улучшений, доступных в Java 8, например, invoke-dynamic.
-* Проблемы с annotation processing.
-* Отсутствуют аналоги плагинов-макросов или компиляторов, что ограничивает использование удобных макросов из Scala или плагинов наподобие Checker Framework из Java.
-* При использовании Java и Kotlin совместно нужно соблюдать определённые правила совместимости.
-* Некоторые состоявшиеся, проверенные решения в Android, в том числе и архитектурные, потребуется переписать из-за того, что в Kotlin можно использовать альтернативный подход.
-* Язык довольно молодой и не нашёл себя в какой-то конкретной нише, хотя хорошо подходит как для Android разработки, так и для серверной.
-* Из-за молодости языка нет каких-то выведенных best practices для решения конкретных задач.
+### If the Kotlin advantages are clear, it has disadvantages as well, even though they are not so obvious.
 
-## Остановимся на совместимости и рассмотрим пример разработки простого приложения, которое использует такие популярные библиотеки как: 
+## Weak sides of Kotlin:
+* Kotlin is oriented on Java 6 bytecode and doesn’t use a number of improvements available in Java 8 like invoke-dynamic.
+* Issues with annotation processing.
+* There are no analogues to plugin-macros or compilers which limits the usage of convenient Scala macros or plugins like Checker Framework from Java. 
+* If you practice joint usage of Java and Kotlin you need to follow certain rules of compatibility.
+* You will have to rewrite some proven to be effective solutions for Android, including the architectural ones because of the fact that Kotlin enables the usage of alternative approach.
+* The language is pretty young and hasn’t found any specific niche, however, it is suitable not only for Android but also for Backend development.
+* The language is pretty green and there are no worked out best practices for solving particular tasks.
+
+## Let’s stop on compatibility and examine the example of a simple application development with usage of such popular libraries like:
 * [Glide](https://github.com/bumptech/glide)
 * [Dagger 2](https://github.com/google/dagger)
 * [Retrofit 2](https://github.com/square/retrofit)
 * [Realm database.](https://realm.io/)
 * [RxJava + RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
-## Приложение построено по архитектуре MVP и  является хорошим примером использования данных библиотек и архитектуры.
+## The app serves as a good instance of  libraries data usage and implementation of MVP architecture.
+![Screenshot](assets/screen4.png)
+## Let’s proceed to development
+## It’s pretty easy to start the development process with Kotlin. First of all, you need to install the plugin.
+![Screenshot](assets/screen1.png)
+## After that configure your project. The easiest way to do this is to press Ctrl+Shift+A and find Configure Kotlin in Project item that will appear in autocomplete.
+![Screenshot](assets/screen2.png)
+## To convert existing Java classes to Kotlin you need to find the command named Convert Java to Kotlin
+![Screenshot](assets/screen3.png)
+## Now let's start the integration of the needed libraries
+## A few words before start. Some libraries like Dagger 2 require Annotation Processing. Java Annotation Processing is not suitable for Kotlin. That’s why it includes its own Annotation Processing Tool for Kotlin (kapt), here is a great opinion on it.
 
-## Приступим к разработке
-## Начать разрабатывать на Кotlin довольно легко. Для начала нужно установить плагин.
-
-## Далее сконфигурируйте проект. Самым простым способом будет:  нажать Ctrl+Shift+K и найти пункт Configure Kotlin in Project, который появится в автокомплите. 
-
-## Чтобы конвертировать существующие java-классы в Kotlin ищем команду Convert Java to Kotlin
-
-## Теперь начнем интегрировать нужные нам библиотеки:
-
-## Для интеграции библиотек  добавим следующие строки в build.gradle
+## To activate it you need to add this in the build.gradle file:
 ```groovy
 kapt {
     generateStubs = true
@@ -102,7 +102,7 @@ dependencies {
  }
 ```
 
-## Создадим класс наследуемый от Application и сконфигурируем в нем Realm и граф для Dagger
+## Then we create inheriting class from Application and configure Realm and dependencies graph for Dagger 2 developed by Google
 ```kotlin
 class AppDelegate : Application() {
 
@@ -130,7 +130,7 @@ class AppDelegate : Application() {
    }
 }
 ```
-## Для работы с HTTP используем Retrofit. Создадим для этого интерфейс с одним методом, который будет получать список новостей 
+## To work with HTTP we use Retrofit. We need to create an interface with one method that will receive news feed. 
 
 ```kotlin
 interface NewsApiInterface {
@@ -139,7 +139,7 @@ interface NewsApiInterface {
 }
 ```
 
-## Создадим класс NewsModule, в котором будут создаваться инъекцируемые (inject) объекты
+## We create NewsModule class wherein the injected objectives will be created. 
 
 ```kotlin
 @Module
@@ -166,7 +166,7 @@ class NewsModule {
 }
 ```
 
-## В классе NewPresenter мы будем использовать RxAndroid и Realm для получения списка новостей его фильтрации и кеширования.
+## In NewPresenter class we will use RxAndroid and Realm for news feed processing and caching.
 
 ```kotlin
 subscription = mNewsApiInterface!!
@@ -189,7 +189,7 @@ subscription = mNewsApiInterface!!
        .subscribe({ mNewsView?.onNewsItemLoaded(it) }, { mNewsView?.onError(it) })
 ```
 
-##  Исходный код проекта доступен внутри этого репозитория =)
+##  Projects source code is available on this Repository =)
 
-# Вывод
-## Kotlin современный, safety язык программирования, который упрощает создание андроид-приложения. Он выглядит доступной альтернативой Java с хорошей документацией и достаточно простым для понимания содержанием. Надеемся, что данная статья помогла Вам разобраться с созданием проекта на Kotlin и интеграцией в него данных библиотек. 
+# Let’s sum up
+## All in all, Kotlin is a modern and secure programming language that simplifies Android apps development. It looks like a distinct alternative to Java as it has good documentation and is simple enough for understanding. We hope that this article helped you to figure out how to create a project on Kotlin and integrate the needed libraries.
