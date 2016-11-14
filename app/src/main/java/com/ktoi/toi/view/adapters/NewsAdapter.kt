@@ -81,7 +81,7 @@ class NewsAdapter : Adapter<NewsAdapter.NewsViewHolder>() {
             mCaptionTextView!!.text = newsItem.caption
 
             Glide.with(itemView.context)
-                    .load(newsItem.image.thumb)
+                    .load(newsItem.image?.thumb)
                     .asBitmap().centerCrop()
                     .into(object : BitmapImageViewTarget(mImageView!!) {
                         override fun setResource(resource: Bitmap) {
