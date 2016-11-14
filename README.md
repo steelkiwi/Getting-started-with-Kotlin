@@ -1,4 +1,4 @@
-# Getting started with Kotlin, Glide, Dagger 2, Retrofit 2, Realm, MVP and RxJava on Android
+# Getting started with Kotlin And third-party libraries Glide, Dagger 2, Retrofit 2, Realm, MVP and RxJava on Android
 
 It’s not a secret to Android developers all around the globe, that IT community has been trying to find a distinct replacement to Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was open in 2012 and in 2016 the 1.0 version was released.
 
