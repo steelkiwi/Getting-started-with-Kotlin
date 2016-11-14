@@ -76,7 +76,7 @@ class NewsAdapter : Adapter<NewsAdapter.NewsViewHolder>() {
                         R.string.view_news_item_agency,
                         newsItem.agency)
 
-            mDateTextView!!.text = DateUtil.formatDate(newsItem.dateLine)
+            mDateTextView!!.text = DateUtil.formatDate(newsItem.dateLine!!)
 
             mCaptionTextView!!.text = newsItem.caption
 
