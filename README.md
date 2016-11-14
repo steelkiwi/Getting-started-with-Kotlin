@@ -34,14 +34,14 @@
 * [RxJava + RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
 ## The app serves as a good instance of  libraries data usage and implementation of MVP architecture.
-![Screenshot](assets/screen4.png)
+![Screenshot](https://github.com/polyak01/TOI/blob/master/app/src/main/assets/screen4.jpg)
 ## Let’s proceed to development
 ## It’s pretty easy to start the development process with Kotlin. First of all, you need to install the plugin.
-![Screenshot](assets/screen1.png)
+![Screenshot](https://github.com/polyak01/TOI/blob/master/app/src/main/assets/screen1.png)
 ## After that configure your project. The easiest way to do this is to press Ctrl+Shift+A and find Configure Kotlin in Project item that will appear in autocomplete.
-![Screenshot](assets/screen2.png)
+![Screenshot](https://github.com/polyak01/TOI/blob/master/app/src/main/assets/screen2.png)
 ## To convert existing Java classes to Kotlin you need to find the command named Convert Java to Kotlin
-![Screenshot](assets/screen3.png)
+![Screenshot](https://github.com/polyak01/TOI/blob/master/app/src/main/assets/screen3.png)
 ## Now let's start the integration of the needed libraries
 ## A few words before start. Some libraries like Dagger 2 require Annotation Processing. Java Annotation Processing is not suitable for Kotlin. That’s why it includes its own Annotation Processing Tool for Kotlin (kapt), here is a great opinion on it.
 
