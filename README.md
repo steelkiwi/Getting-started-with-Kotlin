@@ -7,8 +7,8 @@
 # What does Kotlin hide?
 ### Mostly Kotlin is commended for its briefness and code safety and also for compatibility with Java and flexile usage. It’s hard to list all its announced advantages, so let’s view the most interesting ones.
 ## Strong sides of Kotlin:
-* Fully compatible with Java. It can use all available Java frameworks, libraries and also with separate modules in current projects.
-* Has open source code, so it’s easy to track and determine an issue and if you come up with it, you can always submit it to Kotlin developers.
+* Fully [compatible with Java] (https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/model/NewsResponse.java#L12). It can use all available Java frameworks, libraries and also with separate modules in current projects.
+* Has [open source code](https://kotlinlang.org/), so it’s easy to track and determine an issue and if you come up with it, you can always submit it to Kotlin developers.
 * Kotlins repository consumes less space than Scala, and adding Kotkin to a project is equal to Google library.
 * Starting from Java 6, it can use the major part of Java 7 and some portable elements of Java 8. That’s why it is easily available even if you are facing troubles updating to new JVM version.
 * Immutability by default.
@@ -45,7 +45,7 @@
 ## Now let's start the integration of the needed libraries
 ## A few words before start. Some libraries like Dagger 2 require Annotation Processing. Java Annotation Processing is not suitable for Kotlin. That’s why it includes its own Annotation Processing Tool for Kotlin (kapt), here is a great opinion on it.
 
-## To activate it you need to add this in the build.gradle file:
+## To activate it you need to add this in the [build.gradle](https://github.com/polyak01/TOI/blob/master/app/build.gradle#L26) file:
 ```groovy
 kapt {
     generateStubs = true
@@ -102,7 +102,7 @@ dependencies {
  }
 ```
 
-## Then we create inheriting class from Application and configure Realm and dependencies graph for Dagger 2 developed by Google
+## Then we create [inheriting class](https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/shared/AppDelegate.kt#L10) from Application and configure Realm and dependencies graph for Dagger 2 developed by Google:
 ```kotlin
 class AppDelegate : Application() {
 
@@ -130,7 +130,7 @@ class AppDelegate : Application() {
    }
 }
 ```
-## To work with HTTP we use Retrofit. We need to create an interface with one method that will receive news feed. 
+## To work with HTTP we use Retrofit. We need to create an [interface](https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/shared/NewsApiInterface.kt#L8) with one method that will receive news feed:
 
 ```kotlin
 interface NewsApiInterface {
@@ -139,7 +139,7 @@ interface NewsApiInterface {
 }
 ```
 
-## We create NewsModule class wherein the injected objectives will be created. 
+## We create [NewsModule class](https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/shared/NewsModule.kt#L18) wherein the injected objectives will be created:
 
 ```kotlin
 @Module
@@ -166,7 +166,7 @@ class NewsModule {
 }
 ```
 
-## In NewPresenter class we will use RxAndroid and Realm for news feed processing and caching.
+## In [NewPresenter](https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L16) class we will use RxAndroid and Realm for [news feed processing and caching](https://github.com/polyak01/TOI/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L32) :
 
 ```kotlin
 subscription = mNewsApiInterface!!
