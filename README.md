@@ -1,4 +1,5 @@
 # Getting started with Kotlin And third-party libraries Glide, Dagger 2, Retrofit 2, Realm, MVP and RxJava on Android
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)]()
 
 It’s not a secret to Android developers all around the globe, that IT community has been trying to find a distinct replacement to Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was open in 2012 and in 2016 the 1.0 version was released.
 
@@ -195,3 +196,28 @@ Projects source code is available on this Repository =)
 
 ## Let’s sum up
  All in all, Kotlin is a modern and secure programming language that simplifies Android apps development. It looks like a distinct alternative to Java as it has good documentation and is simple enough for understanding. We hope that this article helped you to figure out how to create a project on Kotlin and integrate the needed libraries.
+ 
+ 
+ ## License
+
+	The MIT License (MIT)
+
+	Copyright © 2015 Yalantis, https://yalantis.com
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
