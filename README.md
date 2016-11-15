@@ -198,7 +198,7 @@ Projects source code is available on this Repository =)
  All in all, Kotlin is a modern and secure programming language that simplifies Android apps development. It looks like a distinct alternative to Java as it has good documentation and is simple enough for understanding. We hope that this article helped you to figure out how to create a project on Kotlin and integrate the needed libraries.
  
  
- ## License
+## License
 
 	The MIT License (MIT)
 
