@@ -1,6 +1,8 @@
 # Getting started with Kotlin And third-party libraries Glide, Dagger 2, Retrofit 2, Realm, RxJava and MVP architecture on Android
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)]()
-## Made in [SteelKiwi](http://steelkiwi.com/blog/getting-started-kotlin-libraries-Glide-Dagger/)
+[![Made in SteelKiwi](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/made_in_steelkiwi.png)](http://steelkiwi.com/blog/getting-started-kotlin-libraries-Glide-Dagger/)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-How%20to%20use%20Kotlin%20with%20Android-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/5316)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://steelkiwi.com/blog/)
+## Read our new article [here](https://github.com/steelkiwi/collection_in_kotlin)
 
 It’s not a secret to Android developers all around the globe that IT community has been trying to find a distinct replacement of Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was published in 2012, and in 2016 the 1.0 version was released.
 
