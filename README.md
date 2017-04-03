@@ -172,7 +172,7 @@ class NewsModule {
 }
 ```
 
-## In [NewPresenter](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L16) class we will use RxAndroid and Realm for [news feed processing and caching](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L32) :
+## In [NewsPresenter](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L16) class we will use RxAndroid and Realm for [news feed processing and caching](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/presenter/NewsPresenter.kt#L32) :
 
 ```kotlin
 subscription = mNewsApiInterface!!
@@ -203,6 +203,8 @@ Projects source code is available on this Repository =)
 ## License
 
 	The MIT License (MIT)
+	
+	Copyright © 2017 SteelKiwi, http://steelkiwi.com
 	
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
