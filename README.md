@@ -13,7 +13,7 @@ Let’s stay abreast of this trend and try Kotlin on practice to see its extensi
 ## What does Kotlin hide?
 ### Mostly Kotlin is commended for its briefness and code safety and also for compatibility with Java and flexible usage. It’s hard to list all its advantages, so let’s consider the most interesting ones.
 ## Strong sides of Kotlin:
-* It is Fully [compatible with Java] (https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/model/NewsResponse.java#L12).  It can use all available Java frameworks, libraries and also with separate modules in current projects.
+* It is Fully [compatible with Java](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/java/com/ktoi/toi/model/NewsResponse.java#L12).  It can use all available Java frameworks, libraries and also with separate modules in current projects.
 * It has [open source code](https://kotlinlang.org/), so it’s easy to track and determine an issue and if you come up with it, you can always submit it to Kotlin developers.
 * Kotlins repository consumes less space than Scala, and adding Kotkin to a project is equal to Google library.
 * Starting from Java 6, it can use the major part of Java 7 and some portable elements of Java 8. That’s why it is easily available even if you are facing troubles updating to new JVM version.
