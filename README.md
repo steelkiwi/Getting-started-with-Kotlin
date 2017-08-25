@@ -4,11 +4,11 @@
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://steelkiwi.com/blog/)
 ## Read our new article [here](https://github.com/steelkiwi/collection_in_kotlin)
 
-It’s not a secret to Android developers all around the globe that IT community has been trying to find a distinct replacement of Java. Until 2011 before Kotlin creation was announced the most suitable candidate was Scala. Kotlin source code was published in 2012, and in 2016 the 1.0 version was released.
+It’s not a mystery to Android developers all over the world that the whole IT community has been trying to find a decent replacement for Java. Until 2011, before the Kotlin creation had been announced, Scala was the most suitable candidate. However, when JetBrains presented Kotlin programming language and its source code, it gradually became the strongest Java alternative in the field. This resulted in Kotlin becoming the official Android development language in 2017.
 
-Kotlin was claimed to be a response to massive Java code and Scala low-speed compilation. Today many famous IT companies use Kotlin in their projects. The attention to this language is continuing to grow, as it wins over the developers with its syntax and the fact that Kotlin is supported in IDE by the means of plugin. Even Jake Wharton, recognized Android gospeller, uses Kotlin in the projects of his own thus encouraging Android community to use this language.
+Kotlin was claimed to be a response to the massive amounts of code developers often had to write in Java and to Scala’s low-speed compilation. Today, many famous IT companies use Kotlin in their projects. The attention to this language is continuing to grow, as it wins over developers with its syntax and the fact that Kotlin is supported by several IDEs as a plugin. Even Jake Wharton, a recognized Android gospeller, uses Kotlin in his own projects, thus encouraging the whole Android community to use this language.
 
-Let’s stay abreast of this trend and try Kotlin on practice to see its extensively discussed pros and cons. And also we will learn how to start development of Android applications using Kotlin.
+Let’s stay in tune with this trend and try Kotlin in practice to see its extensively debated pros and cons. Also, we will learn how to start developing Android applications in Kotlin.
 
 ## What does Kotlin hide?
 ### Mostly Kotlin is commended for its briefness and code safety and also for compatibility with Java and flexible usage. It’s hard to list all its advantages, so let’s consider the most interesting ones.
@@ -20,8 +20,11 @@ Let’s stay abreast of this trend and try Kotlin on practice to see its extensi
 * There’s immutability by default.
 * It has Higher-Order Functions, i.e. the functions that take functions as parameters.
 * Null safety. Variables in Kotlin can’t possess the null value by default unless you denote them.
+* Kotlin became an officially supported language at the last Google IO conference (May 17th, 2017).
 
-### If the Kotlin advantages are clear, it has disadvantages as well, even though they are not so obvious.
+As for today, Kotlin isn’t very popular. The language is young and the community is yet to be formed. However, the ambitions for Kotlin are high. It has been under development for more than five years and the developers tried their best to avoid Java’s past mistakes. Java’s principle “Write Once Run Anywhere” doesn’t apply here as the language constantly changes and improves. Kotlin developers promise many interesting features, including the coverage of current Scala functionality.
+
+With so many advantages, Kotlin almost seems to be the perfect programming language. However, it does also have some cons, even though they might not be as obvious.
 
 ## WEAKNESSES OF KOTLIN:
 * Kotlin is Java 6 bytecode-oriented and doesn’t use a number of improvements available in Java 8 like invoke-dynamic.
@@ -33,11 +36,11 @@ Let’s stay abreast of this trend and try Kotlin on practice to see its extensi
 * The language is pretty green and there are no worked out best practices for solving particular tasks.
 
 ## Let’s dwell on compatibility and look closely at the example of a simple application development using such popular libraries like:
-* [Glide](https://github.com/bumptech/glide)
-* [Dagger 2](https://github.com/google/dagger)
-* [Retrofit 2](https://github.com/square/retrofit)
-* [Realm database.](https://realm.io/)
-* [RxJava + RxAndroid](https://github.com/ReactiveX/RxAndroid)
+* [Glide](https://github.com/bumptech/glide) - one of the most popular image loading libraries from Bump Technologies. Glide Library can upload and display images from many sources and manage cache, while also consuming small amount of internal memory for image processing.
+* [Dagger 2](https://github.com/google/dagger) -  the library developed by Google Inc. as a fast dependency injector for Android. It helps developers implement a Dependency Injection pattern which is “Inversion of control specific form”. Check out Kotlin + Dagger2 example below.
+* [Retrofit 2](https://github.com/square/retrofit) - a type-safe and the most popular HTTP client for Android Development. Kotlin and Retrofit libraries can be used in Android development without any drawbacks. Later we will show you a Kotlin Retrofit example.
+* [Realm database.](https://realm.io/) - a Mobile Database, which is an excellent substitute for SQLite and ORMs, as it operates faster, simpler and safer. The major part of Realm Kotlin library is written in Java. Our examples are below and you can check Realm Kotlin examples in the official Realm-java repository on GitHub.
+* [RxJava + RxAndroid](https://github.com/ReactiveX/RxAndroid) - Reactive programming has been deeply rooted in Mobile Development. Rx is a powerful tool that allows to solve issues in a neat declarative way of functional programming.There are thousands of articles telling about the benefits of RxJava, RxKotlin, RxAndroid and RxBinding for Android development. We won’t step aside and will use these libraries to work with asynchronous operations in a more convenient way. We will demonstrate you a small example of using Realm with RxJava in Kotlin.
 
 ## The app serves as a good instance of libraries data usage and implementation of MVP architecture:
 ![Screenshot](https://github.com/steelkiwi/Getting-started-with-Kotlin/blob/master/app/src/main/assets/screen4.jpg)
